@@ -4,6 +4,7 @@ import { BancoInter } from '../../assets/images';
 
 import AccountDropdown from './AccountDropdown';
 import Button from '../Button';
+import Gradient from './Gradient';
 
 import { Container, Wrapper, LeftNav, RightNav } from './styles';
 
@@ -22,6 +23,7 @@ const Header = () => {
           <AccountDropdown user={user} />
         </RightNav>
       </Wrapper>
+      <Gradient />
     </Container>
   );
 };

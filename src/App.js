@@ -2,15 +2,13 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import theme from './styles/theme';
 import GlobalStyle from './styles/global';
-import Header from './components/Header';
-import Gradient from './components/Header/Gradient';
+import Dashboard from './pages/Dashboard';
 
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
-      <Header />
-      <Gradient />
-      <h1>Teste</h1>
+      <Dashboard />
+
       <GlobalStyle />
     </ThemeProvider>
   );
