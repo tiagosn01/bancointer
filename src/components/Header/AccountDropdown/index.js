@@ -10,8 +10,6 @@ const removeHashFromColor = color => color.slice(1);
 const AccountDropdown = ({ user }) => {
   const { lightGrey, secondary } = useTheme().colors;
 
-  console.log(lightGrey, secondary);
-
   return (
     <Container>
       <img
@@ -27,6 +25,5 @@ const AccountDropdown = ({ user }) => {
 export default AccountDropdown;
 
 AccountDropdown.propTypes = {
-  color: PropTypes.string.isRequired,
   user: PropTypes.string.isRequired,
 };

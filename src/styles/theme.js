@@ -28,4 +28,7 @@ export default {
   transition: {
     default: '180ms ease-in-out',
   },
+  radius: {
+    default: '0.8rem',
+  },
 };
