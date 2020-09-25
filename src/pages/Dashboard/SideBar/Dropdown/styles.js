@@ -28,10 +28,10 @@ export const Container = styled(Button)`
         border-radius: 50%;
         margin-right: 1.2rem;
       }
+    }
 
-      :last-child {
-        margin-left: auto;
-      }
+    > svg {
+      margin-left: auto;
     }
   `}
 `;

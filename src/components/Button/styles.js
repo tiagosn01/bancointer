@@ -22,12 +22,14 @@ export const Container = styled.button`
     background: ${background || theme.colors.background};
     border: 0;
     padding: 0.8rem 2.4rem;
+    border-radius: ${theme.radius.small};
     color: ${color || theme.colors.secondary};
     transition: ${theme.transition.default};
     * {
       transition: ${theme.transition.default};
     }
     ${variant && variants[variant]};
+
     :disabled {
       cursor: not-allowed;
       opacity: 0.6;
