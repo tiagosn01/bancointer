@@ -1,33 +1,33 @@
 import React from 'react';
 import {
-  BarChartIcon,
-  DollarIcon,
-  PieChartIcon,
-  ShieldIcon,
-  UmbrellaIcon,
-  SmartphoneIcon1,
-} from '../assets/images/icons';
+  FiBarChart2,
+  FiSmartphone,
+  FiUmbrella,
+  FiPieChart,
+  FiShield,
+  FiDollarSign,
+} from 'react-icons/fi';
 
 export default {
   'Conta Digital': {
-    icon: <SmartphoneIcon1 />,
+    icon: <FiSmartphone />,
   },
   Crédito: {
-    icon: <DollarIcon />,
+    icon: <FiDollarSign />,
   },
   Investimentos: {
-    icon: <BarChartIcon />,
+    icon: <FiBarChart2 />,
   },
   IDTVM: {
-    icon: <PieChartIcon />,
+    icon: <FiPieChart />,
   },
   Seguros: {
-    icon: <UmbrellaIcon />,
+    icon: <FiUmbrella />,
   },
   'Recarga de celular': {
-    icon: <SmartphoneIcon1 />,
+    icon: <FiSmartphone />,
   },
   'Sua segurança': {
-    icon: <ShieldIcon />,
+    icon: <FiShield />,
   },
 };

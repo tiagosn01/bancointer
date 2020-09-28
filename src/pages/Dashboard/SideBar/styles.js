@@ -11,7 +11,7 @@ export const Container = styled.div`
     width: 100%;
     height: 100%;
     border-radius: ${theme.radius.default};
-    box-shadow: ${theme.shadows.default}
+    box-shadow: ${theme.shadows.default};
     padding: 2.4rem;
   `}
 `;

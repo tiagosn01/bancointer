@@ -34,6 +34,6 @@ export default {
     tiny: '0.2rem',
   },
   shadows: {
-    default: '0px 5px 20px rgba(0,0,0, 0.08)',
+    default: '0 0.5rem 2rem rgba(0,0,0, 0.08)',
   },
 };
