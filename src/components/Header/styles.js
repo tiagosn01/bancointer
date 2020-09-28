@@ -11,7 +11,7 @@ export const Container = styled.header`
 `;
 
 export const Wrapper = styled.div`
-  max-width: 116.2rem;
+  max-width: 113rem;
   padding: 0 1.6rem;
   width: 100%;
   height: 10.4rem;
