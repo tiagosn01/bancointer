@@ -19,6 +19,6 @@ const DropDown = ({ icon, sectionName }) => {
 export default DropDown;
 
 DropDown.propTypes = {
-  icon: PropTypes.string.isRequired,
+  icon: PropTypes.object.isRequired,
   sectionName: PropTypes.string.isRequired,
 };

@@ -25,5 +25,5 @@ const AccountDropdown = ({ user }) => {
 export default AccountDropdown;
 
 AccountDropdown.propTypes = {
-  user: PropTypes.string.isRequired,
+  user: PropTypes.object.isRequired,
 };
