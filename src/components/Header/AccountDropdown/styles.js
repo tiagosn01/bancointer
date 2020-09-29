@@ -7,8 +7,10 @@ export const Container = styled.div`
   margin-left: 2.4rem;
   position: relative;
   cursor: pointer;
+
   > img {
     width: 4.8rem;
     height: 4.8rem;
+    border-radius: 50%;
   }
 `;

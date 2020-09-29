@@ -62,6 +62,7 @@ export const Card = styled(Button)`
       display: flex;
       justify-content: center;
       align-items: center;
+      border-radius: 50%;
     }
 
     svg {

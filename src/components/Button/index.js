@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 
 import { Container } from './styles';
 
-const Button = ({ children, variant, type, ...rest }) => {
+const Button = ({ children, variant, ...rest }) => {
   return (
-    <Container type={type || 'button'} variant={variant} {...rest}>
+    <Container variant={variant} {...rest}>
       {children}
     </Container>
   );
@@ -16,5 +16,4 @@ export default Button;
 Button.propTypes = {
   children: PropTypes.string.isRequired,
   variant: PropTypes.string.isRequired,
-  type: PropTypes.string.isRequired,
 };
