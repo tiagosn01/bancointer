@@ -1,4 +1,5 @@
 import React from 'react';
+import AccountSummary from './AccountSummary';
 
 import NavigationCards from './NavigationCards';
 
@@ -8,6 +9,7 @@ const MainContent = () => {
   return (
     <Container>
       <NavigationCards />
+      <AccountSummary />
     </Container>
   );
 };
