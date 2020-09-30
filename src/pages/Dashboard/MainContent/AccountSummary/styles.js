@@ -64,7 +64,9 @@ export const LeftData = styled.div`
   ${() => css`
     margin-right: 0.8rem;
     max-width: 55%;
+    max-height: 9.6rem;
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,6 +80,8 @@ export const LeftData = styled.div`
 export const RightData = styled.div`
   ${({ theme }) => css`
     font-size: ${theme.fontSizes.small};
+    height: 100%;
+    max-height: 9.6rem;
     > span:not(:only-child):last-of-type {
       margin-top: 0.8rem;
       display: block;
