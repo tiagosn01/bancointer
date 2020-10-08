@@ -5,7 +5,7 @@ import Button from '../../../../components/Button';
 export const Container = styled.nav`
   ${({ theme }) => css`
     width: 100%;
-    height: 100%;
+    height: -webkit-fill-available;
     max-height: 12rem;
     display: flex;
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import AccountSummary from './AccountSummary';
+import BankProducts from './BankProducts';
 
 import NavigationCards from './NavigationCards';
 
@@ -10,6 +11,7 @@ const MainContent = () => {
     <Container>
       <NavigationCards />
       <AccountSummary />
+      <BankProducts />
     </Container>
   );
 };
