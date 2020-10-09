@@ -5,6 +5,7 @@ import SideBar from './SideBar';
 import MainContent from './MainContent';
 
 import { Container, Wrapper } from './styles';
+import Footer from '../../components/Footer';
 
 const Dashboard = () => {
   return (
@@ -16,6 +17,7 @@ const Dashboard = () => {
           <MainContent />
         </Wrapper>
       </Container>
+      <Footer />
     </>
   );
 };
