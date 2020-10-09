@@ -7,7 +7,6 @@ export const Container = styled.header`
   align-items: center;
   width: 100%;
   background: ${({ theme }) => theme.colors.background};
-  position: relative;
 `;
 
 export const Wrapper = styled.div`
